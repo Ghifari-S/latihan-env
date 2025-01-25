@@ -1,6 +1,6 @@
 
 import { describe, it, expect } from 'vitest';
-import { getEnvironment } from './getEnv';
+import { getEnvironment } from '../../src/function/getEnv';
 
 describe('Environment Function', () => {
   it('mengembalikan variabel environment dengan benar', () => {

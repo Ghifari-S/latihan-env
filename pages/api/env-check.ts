@@ -1,6 +1,6 @@
 
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { getEnvironment } from '../../__test__/function/getEnv';
+import { getEnvironment } from '../../src/function/getEnv';
 
 export default function handler(_req: NextApiRequest, res: NextApiResponse) {
   const env = getEnvironment();
